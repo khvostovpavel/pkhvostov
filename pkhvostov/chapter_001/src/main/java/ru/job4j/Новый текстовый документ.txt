@@ -1,0 +1,30 @@
+package ru.pkhvostov;
+
+/**
+ * Calculate.
+ *
+ * @author Pavel Khvostov(khvostovpavel@mail.ru)
+ * @version $Id$
+ * @since 0.1
+ */
+public class Calculate {
+    /**
+     * Main.
+     * @param args - args.
+     */
+    public static void main( final String[] args) {
+        System.out.println("Hello World");
+    }
+
+    public final String echo(final String value){
+       if (value !=null) {
+           value = String.format(" %s value = ",  value); }
+           else {
+           value = "value = null" ;}
+       }
+        return  String.format(" %s %s %s ", value value,value);
+    }
+}
+
+
+
